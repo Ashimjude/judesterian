@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="nav-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Blog">Blog</a></li>
+                <li><a href="#tutorials">Services</a></li>
+                <li><a href="#fAQ">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li ><a href="#login">Login</a></li>
+            </ul>
+             <img src="image/Kosh_Logo.png" height="90px"  class="logo"><pre></pre>
+        </div>
+    </nav>
+
+</div>
+<div class="news">
+    <div class="news1">
+       
+                <h1 class="heading">Akhir k hudaicha Nepal ma Janta Janna Chahancha. </h1>
+                <img src="image/sajan2.jpg" alt="News Image" class="image">
+                <p class="para" ><h3> मैथिली एक बहुत ही रमणीय और समृद्ध भाषा है जो भारत के पूर्वी भाग में बोली जाती है। यह भाषा मिथिला क्षेत्र की संस्कृति, इतिहास, और साहित्य का हिस्सा है। मैथिली भाषा का विकास विशेषत: संस्कृत के अपभ्रंश रूप में हुआ है और इसमें कई ध्वनियाँ और विशेषताएँ हैं जो इसे अन्य भाषाओं से अलग बनाती हैं।
+ मैथिली में साहित्य, कविताएँ, कहानियाँ, और गीत
+                    लिखे जाते हैं, और यह भाषा मिथिला क्षेत्र की गहरी सांस्कृतिक पहचान का हिस्सा है। इसका उपयोग लोगों की दिनचर्या में भी होता है, और यह भाषा लोगों के बीच सामाजिक संवाद का महत्वपूर्ण हिस्सा है।
+                    
+                    मैथिली का लेखन देवनागरी लिपि में किया जाता है, और यह एक बहुत ही सुंदर भाषा है जिसमें संस्कृतिक धरोहर, सुन्दर कविताएँ, और रमणीय कहानियाँ मिलती हैं।
+                    </h3>
+                    <span class="Hiddennews" id="paragraph" style="display: none;">मैथिली एक बहुत ही रमणीय और समृद्ध भाषा है जो भारत के पूर्वी भाग में बोली जाती है। यह भाषा मिथिला क्षेत्र की संस्कृति, इतिहास, और साहित्य का हिस्सा है। मैथिली भाषा का विकास विशेषत: संस्कृत के अपभ्रंश रूप में हुआ है और इसमें कई ध्वनियाँ और विशेषताएँ हैं जो इसे अन्य भाषाओं से अलग बनाती हैं।
+                        मैथिली में साहित्य, कविताएँ, कहानियाँ, और गीत
+                                           लिखे जाते हैं, और यह भाषा मिथिला क्षेत्र की गहरी सांस्कृतिक पहचान का हिस्सा है। इसका उपयोग लोगों की दिनचर्या में भी होता है, और यह भाषा लोगों के बीच सामाजिक संवाद का महत्वपूर्ण हिस्सा है।
+                                           
+                                           मैथिली का लेखन देवनागरी लिपि में किया जाता है, और यह एक बहुत ही सुंदर भाषा है जिसमें संस्कृतिक धरोहर, सुन्दर कविताएँ, और रमणीय कहानियाँ मिलती हैं।</span>
+                                        </p>
+                <button id="read-more-button" class="read-button" onclick="toggleContent()">Read More</button>
+               </div>
+            
+               <script>
+                function toggleContent() {
+                    var paragraph = document.getElementById('paragraph');
+                    var button = document.getElementById('read-more-button');
+        
+                    if (paragraph.style.display === 'none' || paragraph.style.display === '') {
+                        paragraph.style.display = 'block';
+                        button.textContent = 'Read Less';
+                    } else {
+                        paragraph.style.display = 'none';
+                        button.textContent = 'Read More';
+                    }
+                }
+            </script>
+            <div class="ad">
+            <div class="ad1">
+                <p class="ad-text">Advertisement</p>
+                <div class="adimg">
+                <img src="image/home-2.jpeg" alt="Advertisement Image" width="280" height="180"> </div>
+                <p>Gada Electronics.</p>
+                <a href="your-ad-link">Learn More</a>
+            </div>
+            <div class="ad2">
+                <p class="ad-text">Advertisement</p>
+               <div class="img2ad"> <img src="image/home-2.jpeg" alt="Advertisement Image" width="280" height="180"></div>
+                <p>Bhide Tution Classes</p>
+                <a href="your-ad-link">Learn More</a>
+        </div>
+    </div>
+    <!--
+<div class="Head2">
+        <h2>Latest News and Articles</h2>
+        <div class="news-container">
+          <div class="news-item1" onclick="showPopup('News 1', 'news1.jpg', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.')">
+            <img src="image/sajjan.jpg" alt="News 1">
+            <h3>News Headline 1</h3>
+          </div>
+          <div class="news-item2" onclick="showPopup('News 2', 'news2.jpg', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.')">
+            <img src="image/niree.jpg" alt="News 2">
+            <h3>News Headline 2</h3>
+          </div>
+          <div class="news-item3" onclick="showPopup('Article 1', 'article1.jpg', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.')">
+            <img src="image/home-2.jpeg" alt="Article 1">
+            <h3>Article Title 1</h3>
+          </div>
+        </div>
+      
+       
+        </div>
+        -->
+        
+       <!-- news and activities -->
+<div class="container3">
+    <!--<div class="line3"><hr></div> -->
+    <div class="news6"><h1 class>NEWS & ACTIVITIES</h1></div>
+             <div class="img1"> 
+              <img id="j" src="Image/niree.jpg" height="179" width="249"/>
+                    <h3>PLC Training</h3>
+                    <p>23 JANUARY, 2023</p>
+                </div>
+                <div class="img2">
+                    <img id="j" src="image/sajan2.jpg" height="179" width="249" />
+                    <h3>Sports Week 2079</h3>
+                    <p>02 JANUARY, 2022</p>
+                </div>
+            <div class="img3">
+                    <img id="j" src="image/sajjan.jpg" height="179" width="249" />
+                    <h3 class="prog">LECATHON Program
+                        (HECATHONE) </h3>
+                    <p>23 JANUARY, 2023</p>
+                </div>
+    
+                <div class="img4">
+                    <img  id="j" src="image/home-3.jpeg" height="179" width="249"/>
+                    <h3>Sports Week 2079</h3>
+                    <p>02 JANUARY, 2022</p>
+                 </div> 
+                 
+                    <div class="img5"> 
+                        <img id="j" src="Image/niree.jpg" height="179" width="249"/>
+                              <h3>PLC Training</h3>
+                              <p>23 JANUARY, 2023</p>
+                          </div>
+                          
+                            <div class="img6">
+                                <img id="j" src="image/sajan2.jpg" height="179" width="249" />
+                                <h3>Sports Week 2079</h3>
+                                <p>02 JANUARY, 2022</p>
+                            </div> 
+
+                            <div class="comments">  
+                   
+                    <form id="comment-form">
+                        <div>
+                            <H2>COMMENT</H2>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div>
+                            <label for="response">Response:</label>
+                            <textarea id="response" name="response" rows="4" required></textarea>
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+        
+        
+        
+        
+</body>
+</html>
+            
+            
+            
+            
+            

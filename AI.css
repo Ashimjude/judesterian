@@ -1,0 +1,116 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Your CSS for the navbar and other elements goes here */
+
+/* Adjustments to your existing styles */
+.logo {
+    margin-top: -5px;
+    margin-left: -850px;
+    height: 50px;
+}
+
+/* New styles for the main container */
+.container {
+    max-width: 1200px;
+    width: 98%;
+    margin: auto;
+}
+
+/* New styles for the news article section */
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.news1 {
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* New styles for the advertisement section */
+.advertisement {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ad1, .ad2 {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+/* New styles for the headline section */
+.headline-section {
+    flex: 3;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Popup styles */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.popup-content {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+}
+
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#popup-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #060506;
+}
+
+#popup-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#popup-description {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.5;
+}
